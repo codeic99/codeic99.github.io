@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6222CC;
-    --secondary: #FBA504;
+    --primary: #a20f2f;
+    --secondary: #ABA194;
     --light: #F6F4F9;
     --dark: #04000B;
 }
@@ -359,14 +359,14 @@ h6,
     align-items: center;
     justify-content: center;
     color: var(--light);
-    background: url(../img/blob-primary.png) center center no-repeat;
+    background: url(../img/blob-primary-2.png) center center no-repeat;
     background-size: contain;
     transition: .5s;
 }
 
 .service-item:hover .service-icon {
     color: var(--dark);
-    background: url(../img/blob-secondary.png) center center no-repeat;
+    background: url(../img/blob-secondary-2.png) center center no-repeat;
     background-size: contain;
 }
 
@@ -435,7 +435,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(98, 34, 204, .9);
+    background: rgba(162, 15, 47, .9);
     transition: .5s;
     opacity: 0;
 }
